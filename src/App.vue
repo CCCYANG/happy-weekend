@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
     <Foot></Foot>
   </div>
@@ -40,5 +39,6 @@ a {
 html, body {
   width: 100%;
   height: 100%;
+  font-size: 1.4rem;
 }
 </style>

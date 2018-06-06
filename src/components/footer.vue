@@ -44,21 +44,21 @@ export default {
     position: fixed;
     bottom: 0;
     display: flex;
-    font-size: 12px;
+    font-size: 1.2rem;
     border-top: 1px solid #ccc;
 
     li {
         flex: 1;
-        height: 45px;
+        height: 4.5rem;
         padding-top: 2px;
 
         a {
             color: #A8A8A8;
             .icon {
                 display: inline-block;
-                width: 20px;
-                height: 20px;
-                background-size: 20px 20px; 
+                width: 2rem;
+                height: 2rem;
+                background-size: 2rem 2rem; 
             }
             .icon-home {
                 background-image: url("../assets/home1.png");
